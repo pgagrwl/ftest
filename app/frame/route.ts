@@ -14,7 +14,7 @@ export async function GET(req: NextRequest, res: NextResponse) {
       post_url: `${process.env.BASE_URL}/frame`,
       buttons: [{ label: "Mint NFT", action: "post" }],
       aspect_ratio: "1:1",
-      cid: "Qmd6bnSNMKCMq15r9qBm6wRy8M6iR4JFF13k6veQd7HUdn",
+      cid: "QmWLMBjXmJqM6CZyx1tVQWzfGvEwi3NakvRzTn8ZiQWzJm",
     });
     return new NextResponse(frameMetadata);
   } catch (error) {
